@@ -1,0 +1,31 @@
+{
+  "name": "postcss-gulp-sass",
+  "version": "1.0.0",
+  "description": "Testing and experimenting PostCSS with Gulp and SASS",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "postcss",
+    "gulp",
+    "sass",
+    "js"
+  ],
+  "author": "matheushf",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "autoprefixer-core": "^6.0.1",
+    "csswring": "^5.1.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.8",
+    "jshint": "^2.9.2",
+    "postcss": "^5.0.21"
+  }
+}
