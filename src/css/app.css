@@ -1,0 +1,4 @@
+body          { padding-top:50px; }
+.columns      { background:#048CB9; color:#FFF; padding:20px; }
+.columns:first-child { background:#085A78; }
+.columns:last-child  { background:#B3BBBB; }

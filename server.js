@@ -3,7 +3,7 @@ var app = express();
 
 app.use(express.static('src'));
 
-app.use('/', function (req, res) {
+app.get('/', function (req, res) {
     res.sendFile("src/index.html", {"root": __dirname});
 });
 

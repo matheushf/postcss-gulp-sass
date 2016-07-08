@@ -14,6 +14,7 @@ var srcJs = [
     'src/js/**/*.js'
 ];
 var srcPaths = srcStyles.concat(srcJs);
+srcPaths.push('src/**/*.html');
 
 gulp.task('styles', function () {
     var processors = [
